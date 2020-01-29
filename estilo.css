@@ -26,13 +26,25 @@ form {
 	display: table;
 }
 
-strong {
+strong, h1 {
 	display: block;
 	font-family: "Ubuntu", sans-serif;
 	margin-bottom: 10px;
 }
 
+h1 {
+    display: block;
+    font-size: 15pt;
+    text-align: center;
+    margin-bottom: 20pt;
+}
+
+h1 span {
+    color: #2ecc71;
+}
+
 button {
+    font-family: "Ubuntu", sans-serif;
     max-width: 200px;
     min-width: 100px;
 	box-shadow: inset 0px -3px 7px 0px #29bbff;
@@ -45,7 +57,6 @@ button {
     color: #ffffff;
     margin: 10px 0px;
     align-self: center;
-	font-family: Arial;
 	font-size: 15px;
 	padding: 9px 23px;
 	text-decoration: none;
