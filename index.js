@@ -35,6 +35,10 @@ function validarRespostas() {
     console.log("%cOcorrências", "font-size: 18pt; color: #212121");
     console.table(ocorrencias);
 
+    // Pra pegar um item só das ocorrências 
+    console.log(ocorrencias["Não selecionado"])// Imprime a quantidade de campos não selecionados
+    console.log(ocorrencias["A"])// Imprime a quantidade de campos marcados com 'A'
+
 
     // Forma contracta de fazer o loop e o filtro
     // + Avançado, vale a pena olhar depois
